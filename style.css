@@ -33,7 +33,7 @@ a:hover
 
 #hello-col
 {
-	top:-2.5vh;
+	top:-2.5vh; 
 }
 
 #name
@@ -67,3 +67,14 @@ a:hover
 	background-color: white;
 }
 
+.modal-button
+{
+	color:#001133;
+	border-color:#001133;
+}
+.modal-button:hover
+{
+	color:white;
+	border-color:#001133;
+	background-color:#001133;
+}
