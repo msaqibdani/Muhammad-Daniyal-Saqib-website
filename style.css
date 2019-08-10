@@ -94,7 +94,12 @@ a:hover
 	}
 	.cols
 	{
+
 		height: 50vh !important;
+	}
+	#left
+	{
+		width: 40% !important
 	}
 
 
