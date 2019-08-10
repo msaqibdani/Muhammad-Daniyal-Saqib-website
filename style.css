@@ -71,26 +71,29 @@ a:hover
 	font-size: 13px;
 }
 
-@media (min-width: 576px) 
+@media (max-width: 576px) 
 {
-
-	#About
+	#name-col
 	{
-		top:2vh;
-		left:45vw;
+		margin-top:-6vh !important;
+		min-width: 105vw !important;
 	}
-	#Resume
-	{
 
-		top:12vh;
-		left:42vw;
-		
-	}
-	#LinkedIn
+	.colS
 	{
-		top:7vh;
-		left:40.5vw;
-
+		position: relative;
+		left:-30vw;
+		margin-top:-2vh;
 	}
+
+	.colSB
+	{
+		position: relative;
+		left:-18vw;
+		margin-top:3vh;
+	}
+
+
+	
 }
 
