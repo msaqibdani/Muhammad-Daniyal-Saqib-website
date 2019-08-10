@@ -71,10 +71,30 @@ a:hover
 {
 	color:#001133;
 	border-color:#001133;
+	font-size: 12px;
 }
 .modal-button:hover
 {
 	color:white;
 	border-color:#001133;
 	background-color:#001133;
+}
+.modal-dialog
+{
+	top:50vh;
+	color:#001133;
+}
+.modal-body
+{
+	font-size: 13px;
+}
+.modal-footer
+{
+	height: 7vh;
+}
+
+#left
+{
+	text-align: right;
+	font-weight: bold;
 }
