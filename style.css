@@ -92,10 +92,11 @@ a:hover
 		left:-18vw;
 		margin-top:3vh;
 	}
-	.col-4, .col-8
+	.col-4
 	{
-		width:50vw;
+		min-width:50vw !important;
 	}
+
 
 
 	
