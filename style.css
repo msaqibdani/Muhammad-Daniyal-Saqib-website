@@ -1,9 +1,8 @@
 body {
   background-color: #001133;
-  font-family: futura, oswald-italic, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial;
+  font-family: Georgia, oswald-italic, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial;
   padding: 1vh;
 }
-
 a:link
 {
 	color:white;
@@ -12,30 +11,25 @@ a:visited
 {
 	color: white;
 }
-
 a:hover
 {
 	background-color: none;
 	color:#001133;
 	text-decoration: none;
 }
-
-
 #hello
 {
 	color: white;
-	font-size: 110px;
+	font-size: 111px;
 	width: 19vw;
 	height: 18vh;
 	margin-top:15vh;
 	margin-left:40vw;
 }
-
 #hello-col
 {
 	top:-2.5vh; 
 }
-
 #name
 {
 	position: relative;
@@ -43,41 +37,28 @@ a:hover
 	font-style: italic;
 	color:white;
 	top:1vh;
-	font-size:17.5px;
+	font-size:17px;
 	margin-left:40vw;
 }
-
 #about-resume-linkedin
 {
 	position: relative;
 	margin-left:27.5vw;
 	margin-top:5vh;
 	width:75vw;
-
 }
-
+#left
+{
+	font-weight: bold;
+}
 .btn
 {
 	color:white;
 	border-color: white;
 }
-
 .btn:hover
 {
 	background-color: white;
-}
-
-.modal-button
-{
-	color:#001133;
-	border-color:#001133;
-	font-size: 12px;
-}
-.modal-button:hover
-{
-	color:white;
-	border-color:#001133;
-	background-color:#001133;
 }
 .modal-dialog
 {
@@ -86,15 +67,8 @@ a:hover
 }
 .modal-body
 {
+	height: 27vh;
 	font-size: 13px;
 }
-.modal-footer
-{
-	height: 7vh;
-}
 
-#left
-{
-	text-align: right;
-	font-weight: bold;
-}
+
