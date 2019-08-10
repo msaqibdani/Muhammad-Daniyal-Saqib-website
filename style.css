@@ -71,8 +71,9 @@ a:hover
 	font-size: 13px;
 }
 
-@media (max-width: 576px) 
+@media (min-width: 576px) 
 {
+
 	#About
 	{
 		top:2vh;
