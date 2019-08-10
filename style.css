@@ -71,4 +71,25 @@ a:hover
 	font-size: 13px;
 }
 
+@media (max-width: 576px) 
+{
+	#About
+	{
+		top:2vh;
+		left:45vw;
+	}
+	#Resume
+	{
+
+		top:12vh;
+		left:42vw;
+		
+	}
+	#LinkedIn
+	{
+		top:7vh;
+		left:40.5vw;
+
+	}
+}
 
