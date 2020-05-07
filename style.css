@@ -1,66 +1,33 @@
 body {
-  background-color: #001133;
-  font-family: Georgia, oswald-italic, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif, Arial;
+  background-color: rgb(10, 25, 47);
+  font-family: Futura, Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   padding: 1vh;
 }
 
 a:link
 {
-	color:white;
+	color:#e69215;
 }
 a:visited
 {
-	color: white;
+	color:#e69215;
 }
 a:hover
 {
 	background-color: none;
-	color:#001133;
-	text-decoration: none;
-}
-#hello
-{
-	color: white;
-	font-size: 111px;
-	width: 19vw;
-	height: 18vh;
-	margin-top:15vh;
-	margin-left:40vw;
-}
-#hello-col
-{
-	top:-2.5vh; 
-}
-#name
-{
-	position: relative;
-	margin-left: 0.5vw;
-	font-style: italic;
 	color:white;
-	top:1vh;
-	font-size:17px;
-	margin-left:40vw;
+	text-decoration: underline;
+	text-shadow: 20px;
 }
-#about-resume-linkedin
-{
-	position: relative;
-	margin-left:15vw;
-	margin-top:7vh;
-	width:75vw;
-}
-#left
-{
-	font-weight: bold;
-}
-.btn
-{
-	color:white;
-	border-color: white;
-}
+
+
 .btn:hover
 {
-	background-color: white;
+	background-color: #e89110;
+	border-color: #e89110;
+	color: rgb(10, 25, 47);
 }
+
 .modal-dialog
 {
 	top:50vh;
@@ -71,6 +38,93 @@ a:hover
 	height: 27vh;
 	font-size: 13px;
 }
+
+#left-border-vertical-line
+{
+	position: fixed;
+	margin-top: 60vh;
+	
+  	height: 40vh;
+  	margin-left: 3vw;
+}
+#navBar
+{
+	margin-top: 1vh;
+	max-width: 50vw;
+	margin-left: 50vw;
+	font-size: 14px;
+	
+}
+#hello
+{
+	color: #e69215;
+	font-size: 15px;
+	width: 19vw;
+	letter-spacing: 2px;
+	height: 18vh;
+	margin-top:17vh;
+	margin-left:10vw;
+	transform: scaleY(1.04);
+}
+
+/* The difference between I'm and Muhammad Daniyal Saqib */
+#hello-col
+{
+	top:-0.5vh; 
+}
+#name
+{
+	
+	margin-left: 0.5vw;
+	color:white;
+	top:1vh;
+	letter-spacing: 2px;
+	font-size:50px;
+	margin-left:10vw;
+	margin-top: -17vh;
+	font-style: bold;
+}
+
+#Tagline
+{
+	position: relative;
+	margin-left: 0.5vw;
+	color:white;
+	top:1vh;
+	letter-spacing: 2.5px;
+	font-size:15px;
+	margin-left:10vw;
+	max-width: 50vw;
+	transform: scaleY(1.04);
+	
+}
+
+#about-resume-linkedin
+{
+	position: relative;
+	margin-left:15vw;
+	margin-top:7vh;
+	width:75vw;
+
+}
+#left
+{
+	font-weight: bold;
+}
+.btn
+{
+	color:#e89110;
+	border-color: #e89110;
+	font-size: 14px;
+}
+
+
+.inline-references
+{
+	color: #e69215;
+}
+
+
 
 @media (max-width: 576px) 
 {
