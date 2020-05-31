@@ -8,32 +8,27 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
 
-<div id = 'navBar'>
+<div class = 'row' id = 'navBar'>
 	<nav class="navbar">
-		<a href='https://www.depauw.edu'>About</a>
-		<a href='https://www.depauw.edu'>Experience</a>
-		<a href='https://www.depauw.edu'>Projects</a>
-		<a href='https://www.depauw.edu'>Contact</a>
-		<div id = 'Resume'>
+		<a href=''>About</a>
+		<a href='' class="navigation-space">Experience</a>
+		<a href='' class="navigation-space">Projects</a>
+		<a href='' class="navigation-space">Contact</a>
+		<div id = 'Resume' class="navigation-space">
 			<a class = 'btn' href='./Files/Resume.pdf'>Resume</a>
 		</div>
 	</nav>
 </div>
 
-<div>
-	<div id="left-border-vertical-line">
-		<a href="https://github.com/msaqibdani/msaqibdani.github.io/tree/master/Icons/GitHub-Mark-Light-32px.png["><i></i></a>
-	</div>
-</div>
-
 <div id = 'hello'>
 	<div class = "row">
 		<div class = "col colS" id = 'hello-col'>
-			Hello, I'm
+			Hello, my name is
 		</div>
 	</div>	
 </div>
@@ -48,48 +43,35 @@
 <div id = 'Tagline'>
 	<div class = 'row'>
 		<div class = 'col colS' id = 'Tagline-col'>
-			I'm a senior at <a class = "inline-references" href='https://www.depauw.edu'>DePauw University</a>, majoring in Computer Science and minoring in Statistics. 
+			I'm an incoming Software Engineer <a class = "inline-references" href='https://www.formotiv.com'>@ ForMotiv.</a> I graduated from<a class = "inline-references" href='https://www.depauw.edu'> DePauw University</a> in May 2020. 
 		</div>
 	</div>
 </div>
 
-<div id = 'about-resume-linkedin'>
-	<div class = 'row'>
-		<div class = 'col-sm' id = 'About'>
-			<button type="button" class="colSB btn" data-toggle="modal" data-target="#myModal">About</button>
-			<div class="modal" id="myModal">
-			  <div class="modal-dialog">
-			    <div class="modal-content">
-			      <div class="modal-body">
-			      	<div class = 'row'>
-				      	<div class = 'cols col-4' id='left'>
-				      		<p>Preferred Name:</p>
-				      		<p>Class Standing:</p>
-				      		<p>Originally from:</p>
-				      		<p>Interest: </p>
-				      	</div>
-				      	<div class = 'cols col-8' id='right'>
-				      		<p>Daniyal </p>
-					        <p>Senior (Expected Graduation May 2020) </p>
-				       		<p>Lahore, Pakistan </p>
-				       		<p>Technology, Music, Cricket, Community Service and Spicy Food</p>
-				       	</div>
-				      </div>
-			      </div>
-			    </div>
-			  </div>
-			</div>
+<div class = 'row' id = 'profile_picture'>
+	<a href="">
+		<div id='layer'>
+			<img src="./Images/Profile.jpg" class="left" alt="I'm shy!" id="profile_picture_img"></img>
 		</div>
-		<div class = 'colSB col-sm' id = 'LinkedIn'>
-			<a class = 'btn' href='https://www.linkedin.com/in/muhammaddaniyalsaqib'>LinkedIn</a>
-		</div>
-		<div class = 'colSB col-sm' id = 'Github'>
-			<a class = 'btn' href='https://www.github.com/msaqibdani'>Github</a>
+	</a>
+</div>
+
+<div id = 'row'>
+	<div class = 'get-in-touch'>
+		<a id='get-in-touch-button' class = 'btn btn-lg' data-toggle="collapse" data-target="#social-media-buttons">Get In Touch</a>
+	</div>
+
+	<div class="collapse" id="social-media-buttons">
+		<div class="row">
+			<a href="https://linkedin.com/in/muhammaddaniyalsaqib"><img src="./Images/linkedin_icon.png" class="social-media-icons" alt="LinkedIn" id="LinkedIn-icon"></img></a>
+			<a href="mailto:msaqibdani@gmail.com"><img src="./Images/email_icon.png" class="social-media-icons" alt="LinkedIn" id="LinkedIn-icon" style="width: 3.75vw; margin-top:0.6vw; "></img></a>
+
 		</div>
 
-		
-		</div>
 	</div>
 </div>
+</div>
+
+
 </body>
 </html>

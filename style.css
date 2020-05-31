@@ -2,6 +2,7 @@ body {
   background-color: rgb(10, 25, 47);
   font-family: Futura, Calibre, "San Francisco", "SF Pro Text", -apple-system, system-ui, BlinkMacSystemFont, Roboto, "Helvetica Neue", "Segoe UI", Arial, sans-serif;
   padding: 1vh;
+  max-width: 98vw!important;
 }
 
 a:link
@@ -19,7 +20,12 @@ a:hover
 	text-decoration: underline;
 	text-shadow: 20px;
 }
-
+.btn
+{
+	color:#e89110;
+	border-color: #e89110;
+	font-size: 14px;
+}
 
 .btn:hover
 {
@@ -28,33 +34,23 @@ a:hover
 	color: rgb(10, 25, 47);
 }
 
-.modal-dialog
+
+.navigation-space
 {
-	top:50vh;
-	color:#001133;
-}
-.modal-body
-{
-	height: 27vh;
-	font-size: 13px;
+	margin-left: 5vw;
 }
 
-#left-border-vertical-line
-{
-	position: fixed;
-	margin-top: 60vh;
-	
-  	height: 40vh;
-  	margin-left: 3vw;
-}
+
 #navBar
 {
 	margin-top: 1vh;
-	max-width: 50vw;
 	margin-left: 50vw;
 	font-size: 14px;
-	
+	margin-bottom: 25vh;
+
+
 }
+
 #hello
 {
 	color: #e69215;
@@ -64,13 +60,27 @@ a:hover
 	height: 18vh;
 	margin-top:17vh;
 	margin-left:10vw;
-	transform: scaleY(1.04);
+
 }
+
+.social-media-icons
+{
+	margin-left: 3vw;
+	width: 5vw;
+	color: black;
+}
+
+#social-media-buttons
+{
+	margin-top: 2vh;
+	margin-left: 10vw;
+}
+
 
 /* The difference between I'm and Muhammad Daniyal Saqib */
 #hello-col
 {
-	top:-0.5vh; 
+	top: -1vh; 
 }
 #name
 {
@@ -94,29 +104,55 @@ a:hover
 	letter-spacing: 2.5px;
 	font-size:15px;
 	margin-left:10vw;
-	max-width: 50vw;
-	transform: scaleY(1.04);
+	max-width: 39vw;
 	
 }
 
-#about-resume-linkedin
+#get-in-touch-button
 {
-	position: relative;
-	margin-left:15vw;
-	margin-top:7vh;
-	width:75vw;
+	margin-top: -20vh;
+	margin-left: 10vw;
+	color: #e89110;
+}
 
-}
-#left
+#social-media-buttons
 {
-	font-weight: bold;
+	margin-top: -7vh;
 }
-.btn
+
+
+#get-in-touch-button:hover
 {
-	color:#e89110;
+	background-color: #e89110;
 	border-color: #e89110;
-	font-size: 14px;
+	color: rgb(10, 25, 47);
 }
+
+
+
+#profile_picture_img
+{
+	margin-top: -30vh;
+	margin-left: 65vw;
+	width: 25vw;
+	height: 55vh;
+	object-fit: cover;
+	opacity: 0.3;
+}
+
+#profile_picture_img:hover
+{
+	opacity: 1;
+}
+
+
+
+.left
+{
+	margin-left: 10vw;
+}
+
+
 
 
 .inline-references
