@@ -110,14 +110,14 @@ a:hover
 
 #get-in-touch-button
 {
-	margin-top: -20vh;
+	margin-top: 5vh;
 	margin-left: 10vw;
 	color: #e89110;
 }
 
 #social-media-buttons
 {
-	margin-top: -7vh;
+	margin-top: 2vh;
 }
 
 
@@ -126,23 +126,6 @@ a:hover
 	background-color: #e89110;
 	border-color: #e89110;
 	color: rgb(10, 25, 47);
-}
-
-
-
-#profile_picture_img
-{
-	margin-top: -30vh;
-	margin-left: 65vw;
-	width: 25vw;
-	height: 55vh;
-	object-fit: cover;
-	opacity: 0.3;
-}
-
-#profile_picture_img:hover
-{
-	opacity: 1;
 }
 
 
